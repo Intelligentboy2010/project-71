@@ -19,24 +19,7 @@
 
 <body>
 
-    <nav class="navbar-inverse" style="postion:sticky;top:0;z-index: 99999">
-        <div class="navbar-header">
-
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Sports</a>
-        </div>
-        <div class="collapse navbar-collapse" id="mynavbar">
-            <ul class="nav navbar-nav">
-                <li><a href="#basket-ball">Basket Ball</a></li>
-                <li><a href="#quidditch">Quidditch</a></li>
-
-            </ul>
-        </div>
-    </nav>
+    
 
 
 
@@ -68,7 +51,7 @@
         <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <h2 class="text-capitalize ">List of Sports</h2>
         </div>
-        <section id="basket-ball">
+        
             <!--add data-toggle="modal" below in the div tag-->
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 sport" data-toggle="modal" data-target="#basketball">
                 <img src="basketball.jpg" class="img-responsive">
@@ -96,10 +79,11 @@
                 </div>
             </div>
             
-        </section>
+           
+       
     </div>
-
-    <section id="quidditch">
+<div class="container">
+    
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 sport" data-toggle="modal" data-target="#quidditch">
             <img src="download.jpg" class="img-responsive">
             <hr>
@@ -116,7 +100,7 @@
                         <h4 class="modal-title">Quidditch</h4>
                     </div>
                     <!--add bootstrap class modal-body-->
-                    <div class="modal-body">
+                    <div class="modal-body" id="quidditch">
                         <img src="download.jpg" class="img-responsive img_modal">
                         <p class="p_modal">Quidditch is a sport of two teams of seven players each mounted on a broomstick, played on a hockey rink-sized pitch. It is based on a fictional game of the same name invented by author J. K. Rowling, which is featured in the Harry Potter series of novels and related media.<br>
                             <a href="https://en.wikipedia.org/wiki/Quidditch_(real-life_sport)"><b>ABOUT Quidditch </b></a>
@@ -125,9 +109,9 @@
                 </div>
             </div>
         </div>
-    </section>
-
-
+    
+        
+</div> 
 
 
 
